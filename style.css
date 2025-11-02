@@ -105,6 +105,25 @@ nav a.active {
   animation: fadeInHero 1s ease-in;
   
 }
+.fanclub {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.join-btn {
+  background-color: #fcd307;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background-color: #ffeb3b;
+  transform: scale(1.05);
+}
  
 .overlay {
   background: black ;
@@ -122,6 +141,7 @@ nav a.active {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
+
 
 .overlay button {
   background: black;
